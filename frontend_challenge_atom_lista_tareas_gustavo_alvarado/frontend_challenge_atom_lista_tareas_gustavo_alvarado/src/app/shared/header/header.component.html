@@ -1,0 +1,10 @@
+<mat-toolbar class="navbar-item">
+    <span>Lista Tareas</span>
+
+    <li *ngIf="autenticarServ.autenticar()" >
+        <button mat-flat-button (click)="cerrar()" class="button-item">Cerrar
+            Sesión</button>
+    </li>
+
+
+</mat-toolbar>
